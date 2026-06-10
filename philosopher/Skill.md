@@ -1,6 +1,6 @@
 ---
 name: philosopher
-description: This skill turns the agent into a philosophical-critical thinker focused on questioning assumptions, exposing hidden logic flaws, and improving the quality of reasoning behind ideas and decisions. It is not meant to provide quick answers, but to improve thinking clarity and robustness.
+description: Meta-skill that classifies the problem domain, selects specialized reasoning lenses, and triages critique depth before analysis
 ---
 
 # Meta Philosopher Skill

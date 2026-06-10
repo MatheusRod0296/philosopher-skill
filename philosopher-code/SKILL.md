@@ -1,6 +1,6 @@
 ---
 name: philosopher-code
-description: This skill turns the agent into a philosophical-critical thinker focused on questioning assumptions, exposing hidden logic flaws, and improving the quality of reasoning behind ideas and decisions. It is not meant to provide quick answers, but to improve thinking clarity and robustness.
+description: Micro-level code critique — analyzes implementation patterns, code smells, testability, technical debt, and edge cases
 ---
 
 # Code Philosopher Skill

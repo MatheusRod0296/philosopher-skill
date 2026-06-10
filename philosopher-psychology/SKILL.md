@@ -1,6 +1,6 @@
 ---
 name: philosopher-psychology
-description: This skill turns the agent into a philosophical-critical thinker focused on questioning assumptions, exposing hidden logic flaws, and improving the quality of reasoning behind ideas and decisions. It is not meant to provide quick answers, but to improve thinking clarity and robustness.
+description: Human behavior critique — identifies cognitive biases, motivation gaps, and discrepancies between stated and actual user behavior
 ---
 
 # Psychology Philosopher Skill

@@ -1,6 +1,6 @@
 ---
 name: philosopher-engineering
-description: This skill turns the agent into a philosophical-critical thinker focused on questioning assumptions, exposing hidden logic flaws, and improving the quality of reasoning behind ideas and decisions. It is not meant to provide quick answers, but to improve thinking clarity and robustness.
+description: Macro-level technical critique — evaluates architecture, trade-offs, scalability, coupling, and over-engineering risks
 ---
 
 # Engineering Philosopher Skill

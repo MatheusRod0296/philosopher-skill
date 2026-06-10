@@ -11,6 +11,7 @@ A set of specialized reasoning skills that turn the [opencode](https://opencode.
 | **philosopher-hard** | Stress test | Aggressively tries to break the idea — worst-case reasoning, falsification |
 | **philosopher-engineering** | Technology | Evaluates architecture, trade-offs, scalability, over-engineering |
 | **philosopher-business** | Business | Analyzes market demand, competition, monetization, execution risk |
+| **philosopher-code** | Code | Analyzes implementation quality, code smells, testability, technical debt |
 | **philosopher-psychology** | Human behavior | Identifies cognitive biases, motivation gaps, real vs stated behavior |
 
 ## Architecture
@@ -28,6 +29,7 @@ User request
     │
     ├──→ philosopher-general     (simple / early ideas)
     ├──→ philosopher-engineering (technical systems)
+    ├──→ philosopher-code        (code quality / implementation)
     ├──→ philosopher-business    (market / monetization)
     ├──→ philosopher-psychology  (user behavior)
     └──→ philosopher-hard        (high-risk ideas)
@@ -49,6 +51,7 @@ Then reference them from your `.opencode.jsonc` or agent configuration.
 
 **"I want to build a SaaS for X"** → activates *philosopher-business* + *philosopher-hard*  
 **"Should I use microservices?"** → activates *philosopher-engineering*  
+**"Is this code well-structured?"** → activates *philosopher-code*  
 **"Why aren't users converting?"** → activates *philosopher-psychology*  
 **"I have an idea for a startup"** → activates *philosopher-general* first, escalates if needed
 
